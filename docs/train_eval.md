@@ -27,7 +27,7 @@ sh scripts/cache/run_metric_caching_navtest_v2.sh
 You can download path/velocity/trajectory anchor files from [here](https://huggingface.co/wenchaosun/SparseDriveV2) and put to ckpt/kmeans/ or cluster by
 ```bash
 mkdir -p ckpt/kmeans
-sh scripts/cluster/cluster_anchor.py
+python scripts/cluster/cluster_anchor.py
 ```
 
 # Checkpoint
@@ -51,4 +51,3 @@ sh scripts/evaluation/run_pdm_score_navtest_v2.sh
 ```
 
 The EPDM scores for navsimv2 both before and after the [bug fix](https://github.com/autonomousvision/navsim/issues/151#issue-3379282167) will be reported.
-

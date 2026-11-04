@@ -190,5 +190,6 @@ def main():
     visualize(path_cluster, velocity_cluster, trajectory)
     save_outputs(path_cluster, velocity_cluster, trajectory, trajectory_mask)
 
+
 if __name__ == "__main__":
     main()
